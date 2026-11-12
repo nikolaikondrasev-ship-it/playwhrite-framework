@@ -1,0 +1,21 @@
+{
+  "name": "playwright-login-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx -r dotenv/config src/ai/run-review.ts",
+    "review": "tsx -r dotenv/config src/ai/run-review.ts",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^18.0.10",
+    "tsx": "^4.23.15"
+  }
+}
